@@ -13,8 +13,8 @@ This project is an automated test suite using [Playwright](https://playwright.de
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/lucas-porto1/prediktive-challenge.git
-   cd prediktive-challenge
+   git clone https://github.com/lucas-porto1/prediktive-playwright.git
+   cd prediktive-playwright
    ```
 
 2. **Install the dependencies:**
