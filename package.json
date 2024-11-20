@@ -2,20 +2,21 @@
   "name": "playwright",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:ui": "npx playwright test --ui"
+    "test:ui": "npx playwright test --ui",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "Lucas Porto",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.47.2",
     "@types/node": "^22.5.5",
     "globals": "^15.9.0"
   },
   "dependencies": {
+    "playwright": "file:",
+    "prettier": "^3.3.3"
   }
 }

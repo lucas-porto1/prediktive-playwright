@@ -32,11 +32,12 @@ This project is an automated test suite using [Playwright](https://playwright.de
 ## Usage
 
 ### Running Tests
+
 To run all tests in headless mode:
-``` npm run test ```
+`npm run test`
 
 To run tests with the UI visible:
-``` npm run test:ui ```
+`npm run test:ui`
 
 ## Project Structure
 
